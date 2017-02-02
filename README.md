@@ -23,10 +23,10 @@ Background video for a `div` or similar element:
 ```javascript
 <script>
 	$(document).ready(function() {
-		$('html.desktop').boxvid({
+		$('html').boxvid({
 			target: '.your-target-element',
-			video: 'http://www.example.com/video.mp4',
-			poster: 'http://www.example.com/poster.jpg',
+			video: 'video.mp4',
+			poster: 'poster.jpg',
 			sound : 'muted' // Optional
 		});
 	});
