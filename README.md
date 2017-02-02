@@ -10,9 +10,10 @@ The script is setup for videos that are setup with an aspect ratio of 16:9 to sc
 ## Setup
 Link to jQuery and fullbleed.js:
 
-`<script src="jquery.js"></script>`
-`<script src="fullbleed.js"></script>`
-
+```html
+<script src="jquery.js"></script>
+<script src="fullbleed.js"></script>
+```
 
 ## Examples
 Website background video:
