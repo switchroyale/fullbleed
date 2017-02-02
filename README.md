@@ -5,7 +5,7 @@ A script to add background videos to your site.
 This script requires jQuery to function.
 
 ## Video Aspect Ratio
-The script is setup for videos that are setup with an aspect ratio of 16:9 to scale properly.
+The script is setup for videos that have an aspect ratio of 16:9 to scale properly. If a video with a different aspect ratio is being used, the video dimensions will have to be altered in the fullbleed.js file.
 
 ## Setup
 Link to jQuery and fullbleed.js:
