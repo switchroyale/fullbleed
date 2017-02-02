@@ -1,2 +1,2 @@
 # fullbleed.js
-Script to add background videos to your site.
+A script to add background videos to your site.
