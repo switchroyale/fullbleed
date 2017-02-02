@@ -18,7 +18,7 @@ Website background video:
 	});
 </script>
 ```
-Background video for a `div` or similar element:
+Background video for a `<div class="your-target-element"></div>` or similar element:
 
 ```javascript
 <script>
