@@ -8,7 +8,7 @@ This script requires jQuery to function.
 Website background video:
 
 ```javascript
-<script type="text/javascript">
+<script>
 	$(document).ready(function() {
 		$('html').bodyvid({
 			video: 'video.mp4',
@@ -21,7 +21,7 @@ Website background video:
 Background video for a `div` or similar element:
 
 ```javascript
-<script type="text/javascript">
+<script>
 	$(document).ready(function() {
 		$('html.desktop').boxvid({
 			target: '.your-target-element',
