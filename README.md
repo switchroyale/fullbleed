@@ -1,5 +1,5 @@
 # fullbleed.js
-A script to add background videos to your site.
+A script to add full screen background videos to your site or HTML elements.
 
 ## Dependencies
 This script requires jQuery to function.
