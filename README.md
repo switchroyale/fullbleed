@@ -4,6 +4,9 @@ A script to add background videos to your site.
 ## Dependencies
 This script requires jQuery to function.
 
+## Video Aspect Ratio
+The script is setup for videos that are setup with an aspect ratio of 16:9 to scale properly.
+
 ## Examples
 Website background video:
 
