@@ -2,25 +2,33 @@
 A script to add background videos to your site.
 
 ## Dependencies
-This script required jQuery to function.
+This script requires jQuery to function.
 
 ## Examples
 Website background video:
 
 ```javascript
-$('html').bodyvid({
-	video: 'video.mp4',
-	poster: 'poster.jpg',
-	sound: 'muted' // Optional
-});
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('html').bodyvid({
+			video: 'video.mp4',
+			poster: 'poster.jpg',
+			sound: 'muted' // Optional
+		});
+	});
+</script>
 ```
 Background video for a `div` or similar element:
 
 ```javascript
-$('html.desktop').boxvid({
-	target: '.your-target-element',
-	video: 'http://www.example.com/video.mp4',
-	poster: 'http://www.example.com/poster.jpg',
-	sound : 'muted' // Optional
-});
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('html.desktop').boxvid({
+			target: '.your-target-element',
+			video: 'http://www.example.com/video.mp4',
+			poster: 'http://www.example.com/poster.jpg',
+			sound : 'muted' // Optional
+		});
+	});
+</script>
 ```
