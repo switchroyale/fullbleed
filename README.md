@@ -43,3 +43,24 @@ Background video for a `<div class="your-target-element"></div>` or similar elem
 	});
 </script>
 ```
+
+## Additional CSS
+
+When adding a background video to a `<div>` or similar HTML element, it needs to have it's position (and the position of it's contents) set with CSS (relative, absolute, etc.):
+
+```html
+<div class="your-target-element">
+	<div class="your-target-element-content">
+		Your Content...
+	</div>
+</div>
+```
+
+```css
+<style>
+	.your-target-element,
+	.your-target-element-content {
+		position: relative;
+	}
+</style>
+```
